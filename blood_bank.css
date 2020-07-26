@@ -1,0 +1,143 @@
+
+body{
+    padding: 2%;
+    background-color: cadetblue;
+
+   
+    
+}
+
+
+#mobile{
+    display: none;
+}   
+    
+table caption{
+    color: black;
+    font-size: 110%;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    margin:10px;
+    
+}
+
+#mob:hover #mobile{
+  display: inline;    
+}
+
+#show{
+/*    display: none;*/
+}
+
+#first{
+    float: right;
+    
+    
+}
+.dropdown-menu{
+    
+    width: 90%;
+    font-size: 120%;
+    float: left;
+}
+section img{
+    width:30%;
+    height: 30%;
+    display: inline-block;
+    
+}
+
+header {
+    
+    width:90%;
+    padding: 3%;
+    display: inline-block;
+    text-align: center;
+    font-family: "times new roman";
+    background-color: red;
+    background: -webkit-linear-gradient(top,red 0%, white 100%);
+    border: solid 3px blue;
+    border-radius: 10px;
+    transition-property:color, transform;
+    transition-timing-function: linear;
+    transition-duration: 0.5s;
+}
+
+header h1:hover{
+    color: blue;
+    transform:translate(5px,5px);
+  
+    
+}
+/*
+.nav-pills{
+    
+    background-color: white;
+}
+*/
+#lappy .container ul li{
+    margin: 4px;
+    background-color: white;
+    border: solid 2px ;
+    float:left;
+}
+@media screen and (min-width:700px)
+{section{
+ width: 30%;
+    height: 200px;
+    display: inline-block;
+    float: left;
+    overflow: auto;   
+    margin:10px;
+    }
+
+}
+section{
+    background-color: brown;
+    color: white;
+    border: solid 2px;
+    padding-right: 5px;
+    padding-left: 10px;
+    margin:2px;
+    
+    font-family:sans-serif;
+}
+section h2{
+    font-family: serif;
+    
+}
+
+.myslide{
+    display: none;
+    
+    
+}
+.imgs img{
+    text-align: center;
+    height:200px;
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+    border: double red;
+    border-radius: 5px;
+   
+}
+footer{
+    
+    width:100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: lightgreen;
+}
+div table{
+    background-color: lightcoral;
+    
+}
+
+
+    
+  
+
+
+
+
